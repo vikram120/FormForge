@@ -6,7 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		980716532FC5BAD200080661 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 980716522FC5BAD200080661 /* README.md */; };
+		980716542FC5BAD200080661 /* AI_COLLABORATION_LOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 980716512FC5BAD200080661 /* AI_COLLABORATION_LOG.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		980716512FC5BAD200080661 /* AI_COLLABORATION_LOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AI_COLLABORATION_LOG.md; sourceTree = "<group>"; };
+		980716522FC5BAD200080661 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9825A69D2FC59BDD0069D020 /* FormForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -34,6 +41,8 @@
 			children = (
 				9825A69F2FC59BDD0069D020 /* FormForge */,
 				9825A69E2FC59BDD0069D020 /* Products */,
+				980716512FC5BAD200080661 /* AI_COLLABORATION_LOG.md */,
+				980716522FC5BAD200080661 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980716532FC5BAD200080661 /* README.md in Resources */,
+				980716542FC5BAD200080661 /* AI_COLLABORATION_LOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,96 @@
+{
+  "theme": {
+    "background_color": "#FFFFFF",
+    "text_color": "#111827",
+    "border_color": "#D1D5DB",
+    "error_color": "#B91C1C"
+  },
+  "form_title": "Campaign Setup",
+  "fields": [
+    {
+      "id": "campaign_name",
+      "order": 1,
+      "type": "TEXT",
+      "subtype": "PLAIN",
+      "label": "Campaign Name",
+      "placeholder": "e.g., Summer Sale",
+      "max_length": 30,
+      "error_message": "Name is required.",
+      "required": true
+    },
+    {
+      "id": "ad_networks",
+      "order": 2,
+      "type": "DROPDOWN",
+      "label": "Ad Networks",
+      "allow_multiple": true,
+      "default_values": ["net_meta"],
+      "required": true,
+      "options": [
+        { "id": "net_google", "label": "Google Search" },
+        { "id": "net_meta", "label": "Meta Platforms" },
+        { "id": "net_tiktok", "label": "TikTok Ads" },
+        { "id": "net_twitter", "label": "X (Twitter)" }
+      ]
+    },
+    {
+      "id": "daily_budget",
+      "order": 3,
+      "type": "TEXT",
+      "subtype": "NUMBER",
+      "label": "Daily Budget ($)",
+      "placeholder": "Enter amount",
+      "required": true,
+      "error_message": "Budget is required."
+    },
+    {
+      "id": "campaign_url",
+      "order": 4,
+      "type": "TEXT",
+      "subtype": "URI",
+      "label": "Campaign Landing URL",
+      "placeholder": "https://example.com",
+      "required": false
+    },
+    {
+      "id": "campaign_notes",
+      "order": 5,
+      "type": "TEXT",
+      "subtype": "MULTILINE",
+      "label": "Campaign Notes",
+      "placeholder": "Add any additional notes...",
+      "max_length": 300,
+      "required": false
+    },
+    {
+      "id": "api_secret",
+      "order": 6,
+      "type": "TEXT",
+      "subtype": "SECURE",
+      "label": "API Secret Key",
+      "placeholder": "Enter your secret key",
+      "required": false
+    },
+    {
+      "id": "auto_renew",
+      "order": 7,
+      "type": "TOGGLE",
+      "label": "Auto-renew Campaign",
+      "required": false
+    },
+    {
+      "id": "accept_legal",
+      "order": 8,
+      "type": "CHECKBOX",
+      "label": "I agree to the Terms of Service.",
+      "required": true,
+      "error_message": "You must accept the terms.",
+      "metadata": {
+        "Terms of Service": "https://example.com/terms"
+      },
+      "clickable_text_color": "#2563EB"
+    }
+  ]
+}
+
+
