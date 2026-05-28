@@ -7,8 +7,7 @@ A server-driven UI form builder for iOS that renders dynamic fields from a local
 - iOS 16.0+
 - Swift 5.9+
 - Xcode 15+
-- No external dependencies<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2026-05-28 at 16 22 05" src="https://github.com/user-attachments/assets/dd877cae-e147-495f-bd31-6bc9b4fbc092" />
-<img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2026-05-28 at 16 22 10" src="https://github.com/user-attachments/assets/202d885e-13ef-403b-8707-a467a4f09f95" />
+- No external dependencies
 
 
 https://github.com/user-attachments/assets/7fb8cf56-6d55-418b-b2dd-834c088de6db
